@@ -1,0 +1,10 @@
+version: '2.4'
+
+services:
+  knn-tf:
+    build: .
+    command: bash
+    volumes:
+      - ./:/app
+    stdin_open: true
+    tty: true
