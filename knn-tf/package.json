@@ -12,5 +12,9 @@
     "@tensorflow/tfjs-node": "^3.11.0",
     "lodash": "^4.17.21",
     "shuffle-seed": "^1.1.6"
+  },
+  "volta": {
+    "node": "14.19.0",
+    "pnpm": "7.0.0"
   }
 }
